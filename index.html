@@ -74,7 +74,7 @@
     </header>
     <main>
         <!--section presentacion quienes somos-->
-        <section id="Presentacion" class="d-none d-md-block">
+        <section id="Presentacion" class="d-none d-md-block py-5">
             <div class="container">
                 <h2 class="text-uppercase text-center">¿Quiénes somos?</h2>
                 <div class="row py-5 border-top border-light">
@@ -109,11 +109,11 @@
             </div>
         </section>
         <!--section destacados-->
-        <section id="Destacados">
+        <section id="Destacados" class="py-5">
             <div class="container">
                 <h2 class="text-uppercase text-center">Destacados</h2>
                 <div class="row">
-                    <div class="col-12 col-sm-3 my-3">
+                    <div class="col-12 col-md-6 col-lg-3 my-3">
                         <div class="card h-100 border-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="assets/img/card1.jpg" class="card-img-top" alt="" />
                             <div class="card-body">
@@ -124,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-3 my-3">
+                    <div class="col-12 col-md-6 col-lg-3 my-3">
                         <div class="card h-100 border-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="assets/img/card2.jpg" class="card-img-top" alt="" />
                             <div class="card-body">
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-3 my-3">
+                    <div class="col-12 col-md-6 col-lg-3 my-3">
                         <div class="card h-100 border-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="assets/img/card3.jpg" class="card-img-top" alt="" />
                             <div class="card-body">
@@ -148,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-3 my-3">
+                    <div class="col-12 col-md-6 col-lg-3 my-3">
                         <div class="card h-100 border-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="assets/img/card4.jpg" class="card-img-top" alt="" />
                             <div class="card-body">
@@ -163,7 +163,30 @@
             </div>
         </section>
         <!--section contacto-->
-        <section id="Contacto"></section>
+        <section id="Contacto" class="py-5">
+            <div class="mb-5 container">
+                <h2 class="text-uppercase text-center">Contacto</h2>
+                <form id="form" class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="mail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="mail" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="5"></textarea>
+                        </div>
+                        <button id="mail-link" type="submit" class="btn btn-info text-light">
+                Enviar
+              </button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer id="footer" class="text-center text-white py-5">
         <div class="container">
