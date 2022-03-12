@@ -1,3 +1,5 @@
+/*general and reusable styles*/
+
 * {
     box-sizing: border-box;
 }
@@ -22,6 +24,41 @@ h2 {
     font-weight: 300;
 }
 
+#footer,
+.bgIcons,
+.card-body {
+    background-color: #0dcaf0;
+}
+
+#footer a,
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*nav*/
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*section presentacion*/
+
+.tooltip-inner {
+    background-color: #0dcaf0;
+    box-shadow: 0px 0px 4px black;
+    opacity: 1 !important;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #0dcaf0 !important;
+}
+
+
+/*section destacados*/
+
 .card-img-top {
     height: 45%;
 }
@@ -29,18 +66,4 @@ h2 {
 .card-title {
     font-size: 20px;
     font-weight: 400;
-}
-
-
-/*footer*/
-
-#footer,
-.bgIcons,
-.card-body {
-    background-color: #0dcaf0;
-}
-
-#footer a {
-    color: white;
-    text-decoration: none;
 }
